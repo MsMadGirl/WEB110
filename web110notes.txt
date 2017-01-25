@@ -1,0 +1,86 @@
+web110 notes
+
+1/4/2017
+
+all links within site must be relative addresses
+elements are tags, have attributes and values
+
+<p></p>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+.
+.
+<h6></h6>
+
+<ul>
+<li></li>
+<li></li>
+</ul>
+
+para, headline and list are block-level elements
+
+1/9/17
+
+five favorite tags:
+para
+list
+link
+img
+heading
+
+
+img is element, src is attribute, address is value
+alt is attribute, text is value
+attribute-value pair
+
+height and width for images are now not done. 
+css is used instead.
+
+anchor tag
+<a href="" target="_blank">
+
+
+1/11/17
+
+Other tags:
+<strong> deprecated <b>
+<em> deprecated <i>
+<hr>
+<br> (<br /> is xhtml, now old-fashined)
+<!-- comment -->
+<div> for boxes, olga calls outermost #wrapper
+
+
+<style> inside head
+
+div#wrapper styles the div wrapper
+center text by using margin:0 auto 0 auto;
+	0 top and bottom margin, automatic left and right
+	to center a box. you must declare a width, or it will be the full width of the page
+
+css comments /*...*/
+
+elements that are on new lines are block-level, ones that are not are in-line
+imgs are in-line
+in-line elements cannot be centered
+
+margin makes it bigger outside, padding makes it bigger inside the element
+
+
+1/23/17
+
+properties
+
+padding
+margin
+color
+font-family
+font-size
+font-style
+float
+background-color
+line-height
+width
+border
+border-radius
