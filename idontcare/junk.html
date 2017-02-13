@@ -19,70 +19,127 @@
 
 body  {
 	background-color:rebeccapurple;
-	background-image: url("");	
+	background-image: url("totoro1.jpg");	
 	background-repeat:repeat-x;
 	background-attachment:fixed;
 	font-family:Verdana, Geneva, sans-serif;
 	font-color:#fff;
+	font-size:100%
 }
 
 div#wrapper  {
-	background-color:white;
+	background:rgba(255, 255, 255, .95);
 	width:940px;
 	margin:0px auto 0px auto;
 	padding:20px;
 	border-left:5px solid #000000;
 	border-bottom:5px solid #000000;
+	overflow:hidden;
+}
+
+img.right  {
+	float: right;
+	padding: left:30px;	
+	height:300px;
+}
+
+img.left  {
+	float: left;
+	padding: right:30px, left:30px;	
+	height:300px;
+	margin-bottom:20px;
 	
 }
 
-img  {
-	float: right;
-	padding: left:30px;	
+img.center  {
+	float: center;	
+	height:150px;
+	margin-bottom:40px;
+	
 }
 
+footer {
+	height:50px;
+	background:blue;
+	clear:both;
+	line-height:50px;
+}
+
+footer a {
+	color:#000;
+}
+
+/*typography*/
 h1 {
 	size:2.5em;
-	font-family:Georgia, "Times New Roman", Times, serif;
-
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding-bottom:.3em;
+	color:#663399;
 }
 
 h2 {
-size:2em;
-font-family:Georgia, "Times New Roman", Times, serif;	
-padding-bottom:.3em;
-color:#f00;
+	size:2em;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding-bottom:.3em;
+	color:#f00;
 }
 
 h3 {
-font-size:1.5em;
-font-family:Georgia, "Times New Roman", Times, serif;	
-padding-bottom:.3em;
-color:#ff0000;
+	font-size:1.5em;
+	font-family:Georgia, "Times New Roman", Times, serif;	
+	padding-bottom:.3em;
+	color:#ff0000;
 }
 
 p {
-line-height:1.5em;
-padding-bottom:1.5em;	
+	line-height:1.5em;
+	padding-bottom:1.5em;	
 }
 
-ul {
-margin-left:40px;	
+
+
+footer li {
+	float:left;
+	list-style-type:none;
+	width:33.33%;
+	text-align:center;
 }
 
 a {
-color:#000;	
+	color:#000;	
 }
 
 
 </style>
 </head>
 <body>
-<div #wrapper>
+<div id="wrapper">
 
-<h1>bleah</h1>
+<h1>Jabberwocky and Totoro</h1>
 
+<p>'Twas brilling and the slithy toves did gyre and gambol in the wabe. All mimsy were the borogroves and the mome rathes outgrabe.</p>
 
+<img src="totoro3.png" class="right">
+
+<p>"Beware the Jabberwock, my son! The jaws that bite, the claws that catch. Beware the Jub Jub Bird and shun the frumious Bandersnatch!" He took his vorpal sword in hands, long time the manxsome foe he sought, so rested he by the tum tum tree and stood a while in thought. And as in uffish thought he stood, the Jabberwock with eyes of flame came whiffling through the tulgy wood and burbled as it came!</p>
+
+<h2>Is it the end for our hero?</h2>
+
+<img src="totoro2.png" class="left">
+
+<p>One-two, one-two, and through and through the vorpal blade went snicker-snack! He left it dead and with its head he went gallumphing back. "And hast though slain the Jabberwock! Come to my arms, my beamish boy! O Frabjous day! Calloo, Callay!" he chortled in his joy.</p>
+
+<p>'Twas brilling and the slithy toves did gyre and gambol in the wabe. All mimsy were the borogroves and the mome rathes outgrabe.</p>
+
+<footer>
+<ul>
+<li>&copy; 2017</li>
+<li>All rights reserved</li>
+<li><a href="../index.html">Web Design by Rebecca</a></li>
+</ul>
+</footer>
 </div><!--close wrapper-->
+
+
 </body>
 </html>

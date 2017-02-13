@@ -1,0 +1,182 @@
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background:#F3F1F2;
+	font-size:100%;
+	line-height:1.5;
+	font-family:Verdana, helvetica, sans-serif;
+}
+
+div#wrapper {
+	width:940px;
+	margin:0px auto 0px auto;
+	padding:0px 40px 40px 40px;
+	overflow:hidden;
+	background:#F3F1F2;
+}
+
+header {
+	/*height:200px; remove when you add content*/
+	background:#711673;
+	padding:10px 0;
+	
+}
+
+nav {
+	height:50px;
+	background:#A671A5;
+}
+
+nav li {
+	float:left;
+	color:#D9BF9A;
+	list-style-type:none;
+	width:20%;
+	text-align:center;
+	line-height:50px;
+
+}
+
+body#home nav li:nth-child(1),
+body#about nav li:nth-child(2),
+body#celebrate nav li:nth-child(3),
+body#wine nav li:nth-child(4),
+body#tours nav li:nth-child(5) {
+	
+	background:#000;
+	color:#D9BF9A;
+}
+
+nav ul {
+	width:90%;
+	margin:0px auto;
+}
+
+nav a {
+	color:#D9BF9A;
+	text-decoration:none;
+	display:block;
+}
+
+nav a:hover {
+	background-color:white;
+	color:#711673;
+	
+}
+
+main {
+	/*height: 400px;*/
+	width:580px;
+	/*background:#D2A564;*/
+	float:left;
+}
+
+aside {
+	/*height: 300px;*/
+	width:340px;
+	/*background:#D9BF9A;*/
+	float:right;
+}
+
+footer {
+	height: 50px;
+	background:#A671A5;
+	clear:both;
+}
+
+footer li {
+	float:left;
+	color:#D9BF9A;
+	list-style-type:none;
+	width:33.33%;
+	text-align:center;
+	line-height:50px;
+}
+
+footer a {
+	color:#D9BF9A;
+}
+
+div#logo {
+	width:140px;
+	margin: auto;
+}
+
+img.logo {
+	width:140px;
+	display:block;
+}
+
+ul#valid {
+	margin: 20px auto;
+	background:#D9BF9A;
+	width:128px;	
+	
+}
+
+ul#valid li {
+	float: left;
+	list-style-type:none;
+}
+
+div#validator {
+	margin-bottom:30px;
+	padding-bottom:30px;
+}
+
+.container {
+	clear:both;
+}
+
+.box1,
+.box2,
+.box3 {
+	width:300px;
+	border:1px solid black;
+}
+
+.box1 {
+	float:left;
+	margin-right:18px;
+}
+
+.box2 {
+	float:left;
+}
+
+.box3 {
+	float:right;
+}
+
+/*******Typography*********/
+
+h1 {
+	font-size:2.441em;
+	line-height:1.2;
+	font-weight:200;
+}
+
+h2 {
+	font-size:1.953em;
+	line-height:1.2;
+	font-weight:200;
+}
+
+h3 {
+	font-size:1.563em;
+	line-height:1.2;
+	font-weight:200;
+}
+
+p {
+	padding-bottom:1.5em;
+}
+
+
+
+
+
