@@ -84,3 +84,8 @@ line-height
 width
 border
 border-radius
+
+1/25/17
+
+in css, em is a value equalling 16px
+px are absolute, ems can be modified all at once in the body section with font-size:100%; by changing the percent

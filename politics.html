@@ -37,7 +37,7 @@ img  {
 h1 {
 	size:2.5em;
 	font-family:Georgia, "Times New Roman", Times, serif;
-
+	color:white;
 }
 
 h2 {
@@ -56,17 +56,23 @@ color:#ff0000;
 
 p {
 line-height:1.5em;
-padding-bottom:1.5em;	
+padding-bottom:1.5em;
+color:white;	
 }
 
 ul {
 margin-left:40px;	
+list-style:none;
 }
 
 a {
 color:#000;	
 }
 
+li::before {
+  content: "• ";
+  color: white;
+}
 
 
 </style>
@@ -95,6 +101,7 @@ color:#000;
 <h3>Your favorite media!</h3>
 
 <ul>
+<li><i><a href="">Katie Couric</a></i></li>
 <li><i><a href="">Jane Pauly</a></i></li>
 <li><i><a href="">Bryant Gumbel</a></i></li>
 <li><i><a href="">Walter Cronkite</a></i></li>
@@ -124,6 +131,10 @@ color:#000;
 
 <!--line 58 line height not line-height-->
 
+<!--line 65 removed styling from bullets-->
+
+<!--line 72 changed bullet color-->
+
 <!--line 72 & 73 style tag was not closed and failed-close <style> was outside <head> -->
 
 <!--line 75 missing body tag-->
@@ -135,6 +146,8 @@ color:#000;
 <!--line 91 img scr instead of img src, jpg instead of png, //Sarah not capitalized-->
 
 <!--line 98-102 href tags outside li tags-->
+
+<!--Line 98 added Katie Couric-->
 
 <!--line 98 second href tag, but only one href closed-->
 
